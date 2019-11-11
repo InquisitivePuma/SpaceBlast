@@ -18,7 +18,7 @@ public class Ship_Movement : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        accelInput = Input.GetAxis("Vertical") * responsiveness;
+        accelInput = Input.GetAxis("Vertical") * responsiveness * 1.5f;
         rotateInput = Input.GetAxis("Horizontal") * responsiveness;
 
         rigidbody.rotation -= rotateInput;
