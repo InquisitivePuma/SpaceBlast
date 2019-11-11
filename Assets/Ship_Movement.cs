@@ -1,8 +1,10 @@
-﻿using System.Collections;
+﻿
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+
+public class Ship_Movement : MonoBehaviour
 {
     Rigidbody2D rigidbody;
     float accelInput;

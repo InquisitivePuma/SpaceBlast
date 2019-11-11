@@ -232,7 +232,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 880646121}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f50a958c4e2a965438d1f5b136ef74cc, type: 3}
+  m_Script: {fileID: 11500000, guid: 6315abe8119c032458c51feca2e94e2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   responsiveness: 3
@@ -355,6 +355,76 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2051994458
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5147161259271772312, guid: cf525bbe9d10b064bb29b96afc658e81,
+        type: 3}
+      propertyPath: m_Name
+      value: Laser_ShipCannon
+      objectReference: {fileID: 0}
+    - target: {fileID: 1695293140336310576, guid: cf525bbe9d10b064bb29b96afc658e81,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.6101194
+      objectReference: {fileID: 0}
+    - target: {fileID: 1695293140336310576, guid: cf525bbe9d10b064bb29b96afc658e81,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.17692737
+      objectReference: {fileID: 0}
+    - target: {fileID: 1695293140336310576, guid: cf525bbe9d10b064bb29b96afc658e81,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.79595214
+      objectReference: {fileID: 0}
+    - target: {fileID: 1695293140336310576, guid: cf525bbe9d10b064bb29b96afc658e81,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1695293140336310576, guid: cf525bbe9d10b064bb29b96afc658e81,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1695293140336310576, guid: cf525bbe9d10b064bb29b96afc658e81,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1695293140336310576, guid: cf525bbe9d10b064bb29b96afc658e81,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1695293140336310576, guid: cf525bbe9d10b064bb29b96afc658e81,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1695293140336310576, guid: cf525bbe9d10b064bb29b96afc658e81,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1695293140336310576, guid: cf525bbe9d10b064bb29b96afc658e81,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1695293140336310576, guid: cf525bbe9d10b064bb29b96afc658e81,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 8638874440081225069, guid: cf525bbe9d10b064bb29b96afc658e81, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: cf525bbe9d10b064bb29b96afc658e81, type: 3}
 --- !u!1 &2061050269
 GameObject:
   m_ObjectHideFlags: 0
@@ -368,7 +438,7 @@ GameObject:
   m_Layer: 0
   m_Name: ShipCannon
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -395,9 +465,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 2061050269}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 983432b112005664c9811bbec317a61f, type: 3}
+  m_Script: {fileID: 11500000, guid: 1240a65940c83864e8e83e0aed9b57aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fireRate: 1
+  fireRate: 4
   projectile: {fileID: 5147161259271772312, guid: cf525bbe9d10b064bb29b96afc658e81,
     type: 3}
