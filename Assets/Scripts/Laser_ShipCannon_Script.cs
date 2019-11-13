@@ -13,11 +13,7 @@ public class Laser_ShipCannon_Script : MonoBehaviour
         rigidbody.velocity = Quaternion.Euler(0, 0, rigidbody.rotation) * vectorSpeed;
     }
 
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        other.transform.SendMessage("Laser_ShipCannon_Hit", SendMessageOptions.DontRequireReceiver);
-        //Destroy(gameObject);
-    }
+    
 
     private void OnBecameInvisible()
     {

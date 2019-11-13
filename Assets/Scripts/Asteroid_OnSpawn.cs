@@ -31,8 +31,8 @@ public class Asteroid_OnSpawn : MonoBehaviour
 
         float maxAngle = Vector2.Angle(postTransforms[1].position - transform.position, postTransforms[2].position - transform.position); // calculates angle between second closest post, asteroid, and third closest post
         float randAngle = Random.Range(0f, maxAngle);
-        Vector2 movementVector = Quaternion.Euler(0, 0, randAngle) * transform.position; // creates a randomly angled vector that passes through the asteroid and between the two posts 
-        movementVector = movementVector.normalized * Random.Range(2f, 8f); // randomises the magnitude of the vector
+        Vector2 movementVector = Quaternion.Euler(0, 0, randAngle) * (postTransforms[1].position - transform.position); // creates a randomly angled vector that passes through the asteroid and between the two posts 
+        movementVector = movementVector.normalized * Random.Range(3f, 8f); // randomises the magnitude of the vector
         rigidbody.velocity = movementVector;
         
 
