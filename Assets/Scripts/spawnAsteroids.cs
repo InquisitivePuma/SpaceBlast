@@ -7,32 +7,44 @@ public class spawnAsteroids : MonoBehaviour
     GameObject post;
     GameObject bounder;
     public GameObject asteroid;
+
+    Vector3 origin;
+    Vector3 max;
+    Vector3 min;
+    Vector3 range;
+    Vector3 spawnLocation;
+
     void Start()
     {
         post = GameObject.Find("CamPostTopRight");
         bounder = GameObject.Find("SpawnBounder");
-        Invoke("spawnAsteroid", 1);
+        for (int i = 0; i < 3; i++)
+        {
+            Invoke("spawnAsteroid", 1);
+        }
     }
 
     
     void spawnAsteroid()
     {
-        Vector2 origin = gameObject.transform.position;
-        Vector2 max = bounder.transform.position;
-        Vector2 min = post.transform.position;
+        origin = gameObject.transform.position;
+        max = bounder.transform.position;
+        min = post.transform.position;
         // normalise by subtracting origin, making all calculations symetrical around 0,0
         max -= origin;
         min -= origin;
-        Vector2 range = max - min;
-        Vector3 spawnLocation;
+        range = max - min;
         spawnLocation.x = dualRangeRandom(max.x, min.x, range.x);
         spawnLocation.y = dualRangeRandom(max.y, min.y, range.y);
+        // add the origin back in to centre coordinates around current position
+        spawnLocation += origin; 
         spawnLocation.z = 0;
         Instantiate(asteroid, spawnLocation, new Quaternion());
+
         Invoke("spawnAsteroid", 1);
     }
 
-    private float dualRangeRandom(float max, float min, float range)
+    private float dualRangeRandom(float max, float min, float range) // generates a random number betwen min and max or -min and -max
     {
         float num = Random.Range(min, min + (2*range));
         if(num > max)
