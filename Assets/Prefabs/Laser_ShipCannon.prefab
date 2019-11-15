@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3276719404134697154}
   - component: {fileID: 3276719404134697155}
   - component: {fileID: 3276719404134697152}
+  - component: {fileID: 3729081229358584215}
   m_Layer: 10
   m_Name: Laser_ShipCannon
   m_TagString: Untagged
@@ -142,4 +143,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6008bb86a965a7046a8635830eea99c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 4
+  speed: 10
+--- !u!114 &3729081229358584215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3276719404134697157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7321382e996ed0149845ebb25dd04d33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

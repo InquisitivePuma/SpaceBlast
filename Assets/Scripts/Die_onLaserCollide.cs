@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Die_onCameraCollide : MonoBehaviour
+public class Die_onLaserCollide : MonoBehaviour
 {
-    void Collision_Cam()
+    void Collision_Las()
     {
         Destroy(gameObject);
     }
