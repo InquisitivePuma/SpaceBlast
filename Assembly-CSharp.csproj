@@ -70,6 +70,7 @@
     <Compile Include="Assets\Scripts\Die_onCameraCollide.cs" />
     <Compile Include="Assets\Scripts\Die_onLaserCollide.cs" />
     <Compile Include="Assets\Scripts\Laser_ShipCannon_Script.cs" />
+    <Compile Include="Assets\Scripts\particleManager.cs" />
     <Compile Include="Assets\Scripts\Ship_Movement.cs" />
     <Compile Include="Assets\Scripts\ShipCannon_Fire.cs" />
     <Compile Include="Assets\Scripts\spawnAsteroids.cs" />

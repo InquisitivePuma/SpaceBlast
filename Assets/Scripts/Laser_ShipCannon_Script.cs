@@ -4,13 +4,15 @@ using UnityEngine;
 
 public class Laser_ShipCannon_Script : MonoBehaviour
 {
-    Rigidbody2D rigidbody;
+    
     public int speed;
     void Start()
     {
-        rigidbody = GetComponent<Rigidbody2D>();
+        Rigidbody2D this_rigidbody = GetComponent<Rigidbody2D>();
+        Rigidbody2D ship_rigidbody = GameObject.Find("Ship").GetComponent <Rigidbody2D>();
         Vector2 vectorSpeed = new Vector2(speed, 0);
-        rigidbody.velocity = Quaternion.Euler(0, 0, rigidbody.rotation) * vectorSpeed;
+        Vector3 shipVelocity = ship_rigidbody.velocity;
+        this_rigidbody.velocity = (Quaternion.Euler(0, 0, this_rigidbody.rotation) * vectorSpeed) + shipVelocity; // bullet velocity = (bullet speed * direction of ship) + velocity of ship
     }
 
     
