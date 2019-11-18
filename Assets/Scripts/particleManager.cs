@@ -8,6 +8,7 @@ using UnityEngine.Assertions;
 
 public class particleManager : MonoBehaviour
 {
+    public int zOffset;
     public int MaxStars = 100;
     public float StarSize = 0.1f;
     public float StarSizeRange = 0.5f;
@@ -37,10 +38,11 @@ public class particleManager : MonoBehaviour
         {
             float randSize = Random.Range(1f - StarSizeRange, StarSizeRange + 1f);           // Randomize star size within parameters
 
-            Stars[i].position = GetRandomInRectangle(FieldWidth, FieldHeight) + transform.position;
+            Stars[i].position = GetRandomInRectangle(FieldWidth, FieldHeight) + transform.position + new Vector3(0, 0 , zOffset);
             Stars[i].startSize = StarSize * randSize;
         }
         Particles.SetParticles(Stars, Stars.Length);                                        // Write data to the particle system
+        Particles.Simulate(1);
     }
 
     void Update()
