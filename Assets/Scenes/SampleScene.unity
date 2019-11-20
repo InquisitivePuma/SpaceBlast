@@ -5229,6 +5229,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   responsiveness: 5
+  stutterCooldown: 1
 --- !u!60 &880646123
 PolygonCollider2D:
   m_ObjectHideFlags: 0

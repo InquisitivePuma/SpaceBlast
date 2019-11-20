@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class ShipCannon_Fire : MonoBehaviour
 {
-    bool isFiring;
+    bool ready;
     public float fireRate;
     public Object projectile;
     Transform position;
 
     void Ready()
     {
-        isFiring = false;
+        ready = true;
     }
     void Start()
     {
@@ -21,7 +21,7 @@ public class ShipCannon_Fire : MonoBehaviour
 
     void Fire()
     {
-        isFiring = true;
+        ready = false;
         Invoke("Ready", 1 / fireRate);
 
         Instantiate(projectile, position.position, position.rotation);
@@ -29,7 +29,7 @@ public class ShipCannon_Fire : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.LeftControl) && !isFiring)
+        if (Input.GetKey(KeyCode.LeftControl) && ready)
         {
             Fire();
         }

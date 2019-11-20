@@ -32,8 +32,16 @@ public class spawnAsteroids : MonoBehaviour
         max -= origin;
         min -= origin;
         range = max - min;
-        spawnLocation.x = dualRangeRandom(max.x, min.x, range.x);
-        spawnLocation.y = dualRangeRandom(max.y, min.y, range.y);
+        if (Random.value < 0.5)
+        {
+            spawnLocation.x = DualRangeRandom(max.x, min.x, range.x);
+            spawnLocation.y = Random.Range(max.y, -max.y);
+        }
+        else
+        {
+            spawnLocation.x = Random.Range(max.x, -max.x);
+            spawnLocation.y = DualRangeRandom(max.y, min.y, range.y);
+        }
         // add the origin back in to centre coordinates around current position
         spawnLocation += origin; 
         spawnLocation.z = 0;
@@ -42,7 +50,7 @@ public class spawnAsteroids : MonoBehaviour
         Invoke("spawnAsteroid", spawnInterval);
     }
 
-    private float dualRangeRandom(float max, float min, float range) // generates a random number betwen min and max or -min and -max
+    private float DualRangeRandom(float max, float min, float range) // generates a random number betwen min and max or -min and -max
     {
         float num = Random.Range(min, min + (2*range));
         if(num > max)
