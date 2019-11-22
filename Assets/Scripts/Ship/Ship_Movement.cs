@@ -20,7 +20,7 @@ public class Ship_Movement : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (!Input.GetKey(KeyCode.A))
+        if (!Input.GetButton("Stutter"))
         {
             CheckBasicInput();
         } else if (stutterReady)

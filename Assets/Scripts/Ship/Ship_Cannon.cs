@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ShipCannon_Fire : MonoBehaviour
+public class Ship_Cannon : MonoBehaviour
 {
     bool ready;
     public float fireRate;
@@ -22,14 +22,14 @@ public class ShipCannon_Fire : MonoBehaviour
     void Fire()
     {
         ready = false;
-        Invoke("Ready", 1 / fireRate);
+        Invoke("Ready", 1f / fireRate);
 
         Instantiate(projectile, position.position, position.rotation);
     }
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.LeftControl) && ready)
+        if (Input.GetButton("Fire") && ready)
         {
             Fire();
         }

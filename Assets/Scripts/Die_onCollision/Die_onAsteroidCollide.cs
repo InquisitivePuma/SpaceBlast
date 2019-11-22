@@ -4,9 +4,12 @@ using UnityEngine;
 
 public class Die_onAsteroidCollide : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public bool enabled;
     void Collision_Ast()
     {
-        Destroy(gameObject);
+        if (enabled)
+        {
+            Destroy(gameObject);
+        }
     }
 }

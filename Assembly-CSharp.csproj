@@ -66,13 +66,15 @@
     <Compile Include="Assets\Scripts\Asteroid_OnSpawn.cs" />
     <Compile Include="Assets\Scripts\cameraFollow.cs" />
     <Compile Include="Assets\Scripts\colliderMessage.cs" />
-    <Compile Include="Assets\Scripts\Die_onAsteroidCollide.cs" />
-    <Compile Include="Assets\Scripts\Die_onCameraCollide.cs" />
-    <Compile Include="Assets\Scripts\Die_onLaserCollide.cs" />
-    <Compile Include="Assets\Scripts\Laser_ShipCannon_Script.cs" />
+    <Compile Include="Assets\Scripts\Die_onCollision\Die_onAsteroidCollide.cs" />
+    <Compile Include="Assets\Scripts\Die_onCollision\Die_onCameraCollide.cs" />
+    <Compile Include="Assets\Scripts\Die_onCollision\Die_onLaserCollide.cs" />
+    <Compile Include="Assets\Scripts\Die_onCollision\Die_onShipCollide.cs" />
     <Compile Include="Assets\Scripts\particleManager.cs" />
-    <Compile Include="Assets\Scripts\Ship_Movement.cs" />
-    <Compile Include="Assets\Scripts\ShipCannon_Fire.cs" />
+    <Compile Include="Assets\Scripts\Ship\Laser_ShipCannon_Script.cs" />
+    <Compile Include="Assets\Scripts\Ship\Ship_Burst.cs" />
+    <Compile Include="Assets\Scripts\Ship\Ship_Cannon.cs" />
+    <Compile Include="Assets\Scripts\Ship\Ship_Movement.cs" />
     <Compile Include="Assets\Scripts\spawnAsteroids.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/cellv/Desktop/SpaceBlast/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
