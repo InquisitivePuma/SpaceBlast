@@ -46,7 +46,7 @@ public class spawnAsteroids : MonoBehaviour
         spawnLocation += origin; 
         spawnLocation.z = 0;
         Instantiate(asteroid, spawnLocation, new Quaternion());
-
+        spawnInterval *= 0.999999f;
         Invoke("spawnAsteroid", spawnInterval);
     }
 
