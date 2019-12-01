@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Die_onAsteroidCollide : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class Die_onAsteroidCollide : MonoBehaviour
         if (enabled)
         {
             Destroy(gameObject);
+            SceneManager.LoadSceneAsync("Main");
         }
     }
+
 }
