@@ -23,7 +23,7 @@ public class Ship_Burst : MonoBehaviour
     {
         ready = false;
         Invoke("Ready", 1f / fireRate);
-        gameObject.GetComponent<Die_onAsteroidCollide>().enabled = false;
+        gameObject.GetComponent<Reload_OnShipDeath>().enabled = false;
         gameObject.GetComponent<CircleCollider2D>().enabled = true;
         vfx.SetActive(true);
         Invoke("Unburst", duration);
@@ -33,7 +33,7 @@ public class Ship_Burst : MonoBehaviour
     {
         vfx.SetActive(false);
         gameObject.GetComponent<CircleCollider2D>().enabled = false;
-        gameObject.GetComponent<Die_onAsteroidCollide>().enabled = true;
+        gameObject.GetComponent<Reload_OnShipDeath>().enabled = true;
     }
 
     void Update()

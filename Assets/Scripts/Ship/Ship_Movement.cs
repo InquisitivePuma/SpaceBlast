@@ -15,6 +15,7 @@ public class Ship_Movement : MonoBehaviour
     void Start()
     {
         rigidbody = GetComponent<Rigidbody2D>();
+        transform.Rotate(new Vector3(0,0,90));
     }
 
     // Update is called once per frame
@@ -22,23 +23,34 @@ public class Ship_Movement : MonoBehaviour
     {
         if (!Input.GetButton("Stutter"))
         {
-            CheckBasicInput();
-        } else if (stutterReady)
+            Move();
+        }
+        else
         {
-            rigidbody.velocity = new Vector3(0, 0, 0);
-            stutterReady = false;
-            Invoke("StutterReady", stutterCooldown);
+            Rotate();
+            if (stutterReady)
+            {
+                rigidbody.velocity = new Vector3(0, 0, 0);
+                stutterReady = false;
+                Invoke("StutterReady", stutterCooldown);
+            }
         }
 
     }
 
-    void CheckBasicInput()
+    void Move()
     {
         accelInput = Input.GetAxis("Vertical") * responsiveness * 1.5f;
         rotateInput = Input.GetAxis("Horizontal") * responsiveness;
 
         rigidbody.rotation -= rotateInput;
         rigidbody.velocity = Quaternion.Euler(0, 0, rigidbody.rotation) * new Vector2(accelInput, 0);
+    }
+
+    void Rotate()
+    {
+        rotateInput = Input.GetAxis("Horizontal") * responsiveness;
+        rigidbody.rotation -= rotateInput;
     }
 
     void StutterReady()
