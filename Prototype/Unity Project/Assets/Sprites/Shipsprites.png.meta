@@ -1,0 +1,991 @@
+fileFormatVersion: 2
+guid: 9c6f46aca5362cf489897d37b86de675
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5705328074194707667
+    second: Shipsprites_0
+  - first:
+      213: 4971427495361257267
+    second: Shipsprites_1
+  - first:
+      213: -1189589239970928716
+    second: Shipsprites_2
+  - first:
+      213: -7576857693826702671
+    second: Shipsprites_3
+  - first:
+      213: 189875264017535952
+    second: Shipsprites_4
+  - first:
+      213: 2952704844835235441
+    second: Shipsprites_5
+  - first:
+      213: -3579186777101375046
+    second: Shipsprites_6
+  - first:
+      213: -765024022288641697
+    second: Shipsprites_7
+  - first:
+      213: 830825769675263984
+    second: Shipsprites_8
+  - first:
+      213: 7308324887281837770
+    second: Shipsprites_9
+  - first:
+      213: -8861414120357747929
+    second: Shipsprites_10
+  - first:
+      213: 7498002543102996367
+    second: Shipsprites_11
+  - first:
+      213: 957040935450583920
+    second: Shipsprites_12
+  - first:
+      213: -5868458361758478701
+    second: Shipsprites_13
+  - first:
+      213: 5937416088189863157
+    second: Shipsprites_14
+  - first:
+      213: 3584484931012341882
+    second: Shipsprites_15
+  - first:
+      213: -685502305764889183
+    second: Shipsprites_16
+  - first:
+      213: -8558823402190798107
+    second: Shipsprites_17
+  - first:
+      213: -6240230373244664079
+    second: Shipsprites_18
+  - first:
+      213: 5140160246956873260
+    second: Shipsprites_19
+  - first:
+      213: -5518943362677436893
+    second: Shipsprites_20
+  - first:
+      213: 3599718682987908372
+    second: Shipsprites_21
+  - first:
+      213: -8232183170231305664
+    second: Shipsprites_22
+  - first:
+      213: 6586570941350150837
+    second: Shipsprites_23
+  - first:
+      213: -745401173405907957
+    second: Shipsprites_24
+  - first:
+      213: -924445708219259949
+    second: Shipsprites_25
+  - first:
+      213: 1642930515629198541
+    second: Shipsprites_26
+  - first:
+      213: 95978978627186750
+    second: Shipsprites_27
+  - first:
+      213: 4392627187124064229
+    second: Shipsprites_28
+  - first:
+      213: 6165269703170934628
+    second: Shipsprites_29
+  - first:
+      213: -86493493712138610
+    second: Shipsprites_30
+  - first:
+      213: -8017873719148826753
+    second: Shipsprites_31
+  - first:
+      213: -843853603113912832
+    second: Shipsprites_32
+  - first:
+      213: 8297306498982712572
+    second: Shipsprites_33
+  - first:
+      213: 596690367713485090
+    second: Shipsprites_34
+  - first:
+      213: 7520394131404155771
+    second: Shipsprites_35
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Shipsprites_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 724
+        width: 250
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 309228f628e5b34488bcb8dcdd8834d4
+      internalID: 5705328074194707667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shipsprites_1
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 724
+        width: 250
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c1aec59172a1c4bb2a0d8e4bb26405
+      internalID: 4971427495361257267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shipsprites_2
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 724
+        width: 250
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4edb9b0ffe3f14fb09195570314ce0
+      internalID: -1189589239970928716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shipsprites_3
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 724
+        width: 250
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f717423ad54d78c4dbf9de9064928254
+      internalID: -7576857693826702671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shipsprites_4
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 724
+        width: 250
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5dc60b57722d3f49b0fb17daa241b77
+      internalID: 189875264017535952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shipsprites_5
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 724
+        width: 250
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 360621abce909c34ebb000ce469b5a26
+      internalID: 2952704844835235441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shipsprites_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 584
+        width: 250
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfa1f4482b84865418b011b2d11168f2
+      internalID: -3579186777101375046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shipsprites_7
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 584
+        width: 250
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb4051a837fee949b0c67c41b031777
+      internalID: -765024022288641697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shipsprites_8
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 584
+        width: 250
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6a1f9adf0ee67e44a450f309fe624ea
+      internalID: 830825769675263984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shipsprites_9
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 584
+        width: 250
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8690453cde8facc4f9f398013b094d7e
+      internalID: 7308324887281837770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shipsprites_10
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 584
+        width: 250
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca45aa790e1d154490e1ef098dd8285
+      internalID: -8861414120357747929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shipsprites_11
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 584
+        width: 250
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebd9bc1065b2aa542a786c82a5ff8975
+      internalID: 7498002543102996367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shipsprites_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 444
+        width: 250
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 369aa8bd7b4e36647bc40c851485db32
+      internalID: 957040935450583920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shipsprites_13
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 444
+        width: 250
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0be62fd9764b5344fa4f66aceb3d1ed3
+      internalID: -5868458361758478701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shipsprites_14
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 444
+        width: 250
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f91e86e51bfa44cad49572e4e8bba1
+      internalID: 5937416088189863157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shipsprites_15
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 444
+        width: 250
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ffe3b262861bb44b2e69a324a8970a
+      internalID: 3584484931012341882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shipsprites_16
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 444
+        width: 250
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01fc866a8f8209642af6230c395cadcc
+      internalID: -685502305764889183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shipsprites_17
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 444
+        width: 250
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51090e6460e7216419586c8a41423048
+      internalID: -8558823402190798107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shipsprites_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 304
+        width: 250
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 041c0707e81475742932b4223278aa2b
+      internalID: -6240230373244664079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shipsprites_19
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 304
+        width: 250
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b05590255782e1342a3393b64092cb17
+      internalID: 5140160246956873260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shipsprites_20
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 304
+        width: 250
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 676e48e7e728ae0438debc130391ba14
+      internalID: -5518943362677436893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shipsprites_21
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 304
+        width: 250
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e236068745090934da5bdfb74e4f5a5b
+      internalID: 3599718682987908372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shipsprites_22
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 304
+        width: 250
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d4ac4d6a1d2388458338a1de6229ac1
+      internalID: -8232183170231305664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shipsprites_23
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 304
+        width: 250
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddbd8beef3aa70e48a9826b7960e7352
+      internalID: 6586570941350150837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shipsprites_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 164
+        width: 250
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52bbeccbd39a67845b0d4c1e72166191
+      internalID: -745401173405907957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shipsprites_25
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 164
+        width: 250
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3efef1a6e61efd04ab926662bb63a47b
+      internalID: -924445708219259949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shipsprites_26
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 164
+        width: 250
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee84d8a45d41ae4881d69c2b47460a8
+      internalID: 1642930515629198541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shipsprites_27
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 164
+        width: 250
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb8c300ae35e7242b0ed9c92ea58dac
+      internalID: 95978978627186750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shipsprites_28
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 164
+        width: 250
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b458fb91b3cdb464a918b5d1a7b44388
+      internalID: 4392627187124064229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shipsprites_29
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 164
+        width: 250
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f8aa2017cbde246bd6609ad8c8452c
+      internalID: 6165269703170934628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shipsprites_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 24
+        width: 250
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb71d10c62dd9542bdb48f1dafbc33c
+      internalID: -86493493712138610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shipsprites_31
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 24
+        width: 250
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3297d3c89e63d4d469b06dec622ddc50
+      internalID: -8017873719148826753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shipsprites_32
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 24
+        width: 250
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8a4b63aad9c6364a902cc699a057143
+      internalID: -843853603113912832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shipsprites_33
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 24
+        width: 250
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adb7e45a4f3f0fc47b8cd1244a0748df
+      internalID: 8297306498982712572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shipsprites_34
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 24
+        width: 250
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a22b8361f06b2418c80d4466c858f0
+      internalID: 596690367713485090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shipsprites_35
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 24
+        width: 250
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d3bc30185ed0aa4aab47f5b34b47a28
+      internalID: 7520394131404155771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
